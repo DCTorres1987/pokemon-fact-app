@@ -1,4 +1,4 @@
-export const pokemon = {
+export const pokemons = {
     pikachu: {
       image: '/public/images/pikachu.png',
       facts: ['Pikachu is an Electric-Type Pokemon!', 'Pikachu are mainly found in forests!', 'Pikachu is weak against Ground-Type Moves!']
