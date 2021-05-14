@@ -12,7 +12,7 @@ for (const pokemon in pokemons ) {
 
   images.push(
     <img key={pokemon}
-         className='pokemon'
+         className='pokemon-img'
          alt={pokemon}
          src={pokemons[pokemon].image}
          ariaLabel={pokemon}
@@ -23,7 +23,7 @@ for (const pokemon in pokemons ) {
 function App() {
   return (
     <div className="App">
-      <h1>{title || 'Click an pokemon for a fun fact'}</h1>
+      <div className='pokemon-header-bar'><h1 className='pokemon-header'>{title || 'Click an pokemon for a fun fact!'}</h1></div>
       {background}
       <div className='pokemons'>
         {images}
