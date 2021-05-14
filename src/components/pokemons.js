@@ -15,5 +15,9 @@ export const pokemons = {
       image: './images/pidgey.png',
       facts: ['When caught in the wild, Pidgeot is usually found in prairies, meadows, and forests!', 'Magikarp are the meal of choice for most aggressive Pidgeots in the wild!', 'This means Pidgeot can reach a flying speed of 1522.2 miles per hour!']
     },
+    bulbasaur: {
+      image: './images/bulbasaur.png',
+      facts: ['Bulbasaur’s Name Means ‘Strange Seed’ In Most Languages!', 'When Bulbasaur are found in the wild, they are usually found in meadows, fields, forests, jungles & plains!', 'Bulbasaur has a hidden ability called Chlorophyll!']
+    }
 
   };
