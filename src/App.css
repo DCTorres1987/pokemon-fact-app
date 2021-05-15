@@ -1,7 +1,9 @@
 
-
-.pokemon-header-bar {
+* {
   background-color: black;
+}
+.pokemon-header-bar {
+  background-color: red;
   padding: 5px;
 }
 
@@ -9,22 +11,25 @@
 
   color: white;
   text-align: center;
+  background-color: red;
 }
 
 .pokemon-fact {
   color: white;
   font-size: 20px;
   text-align: center;
+  background-color: red;
 }
 
 .background {
   position: absolute;
   z-index: 0;
-  height: 100%;
-  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
 }
 
 .pokemon-img {
@@ -33,5 +38,5 @@
   z-index: 1;
   height: 250px;
   width: 250px;
-  top: 300px;
+  padding: 50px;
 }

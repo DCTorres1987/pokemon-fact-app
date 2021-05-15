@@ -2,9 +2,6 @@ import './App.css';
 import { pokemons } from './components/pokemons';
 
 const title = '';
-const background = <img className="background"
-                        src='./images/background.jpg'
-                        alt='background' />
 
 const images = [];
 
@@ -37,7 +34,6 @@ function App() {
         <h1 className='pokemon-header'>{title || 'Click an pokemon for a fun fact!'}</h1>
         <p id='fact'className='pokemon-fact'></p>
       </div>
-      {background}
       <div className='pokemons'>
         {images}
       </div>
