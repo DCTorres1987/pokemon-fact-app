@@ -5,6 +5,7 @@ export const pokemons = {
     },
     charmander: {
       image: './images/charmander.png',
+      sound: './sounds/charmander_call.wav',
       facts: ['Charmander is an Fire-Type Pokemon!', 'Charmander has two sequential evolutions, Charmeleon and Charizard!', 'Charmander is born with a flame at the end of its tail!']
     },
     squirtal: {
