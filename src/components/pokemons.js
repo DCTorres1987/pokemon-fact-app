@@ -1,6 +1,7 @@
 export const pokemons = {
     pikachu: {
       image: './images/pikachu.png',
+      sound: './sounds/pikachu_call.wav',
       facts: ['Pikachu is an Electric-Type Pokemon!', 'Pikachu are mainly found in forests!', 'Pikachu is weak against Ground-Type Moves!']
     },
     charmander: {
