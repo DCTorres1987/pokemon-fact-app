@@ -8,13 +8,15 @@ const images = [];
 for (const pokemon in pokemons ) {
 
   images.push(
-    <img key={pokemon}
-         className='pokemon-img'
-         alt={pokemon}
-         src={pokemons[pokemon].image}
-         aria-label={pokemon}
-         role= 'button'
-         onClick={(e) => {displayFact(e); playSound(e);}} />
+      
+      <img key={pokemon}
+              className='pokemon-img'
+              alt={pokemon}
+              src={pokemons[pokemon].image}
+              aria-label={pokemon}
+              role= 'button'
+              onClick={(e) => {displayFact(e); playSound(e);}} />   
+     
   )
 }
 
@@ -46,9 +48,7 @@ function App() {
         <h1 className='pokemon-header'>{title || 'Click an pokemon for a fun fact!'}</h1>
         <p id='fact'className='pokemon-fact'></p>
       </div>
-      <div className='pokemons'>
         {images}
-      </div>
     </div>
   );
 }

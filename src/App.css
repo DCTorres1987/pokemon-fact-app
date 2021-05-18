@@ -38,5 +38,25 @@
   z-index: 1;
   height: 250px;
   width: 250px;
-  padding: 50px;
+  padding: 30px;
+}
+
+.pokemon-img:hover {
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+  20% {
+      transform: translateY(-6px);
+  }
+  40% {
+      transform: translateY(0px);
+  }
+
+  80% {
+      transform: translateY(-2px);
+  }
+  100% {
+      transform: translateY(0);
+  }
 }
