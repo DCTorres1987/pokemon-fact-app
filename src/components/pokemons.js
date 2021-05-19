@@ -23,6 +23,11 @@ export const pokemons = {
       image: './images/bulbasaur.png',
       sound: './sounds/bulbasaur_call.mp3',
       facts: ['Bulbasaur’s Name Means ‘Strange Seed’ In Most Languages!', 'When Bulbasaur are found in the wild, they are usually found in meadows, fields, forests, jungles & plains!', 'Bulbasaur has a hidden ability called Chlorophyll!']
-    }
+    },
+    charmeleon: {
+      image: './images/charmeleon.png',
+      sound: './sounds/charmeleon_call.mp3',
+      facts: ['Charmeleons abilities are hidden power and Solar power!', 'Charmeleon can only be obtained by evolving a Charmander!', 'Charmeleon has the Blaze Ability!']
+    },
 
   };
