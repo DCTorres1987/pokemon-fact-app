@@ -34,5 +34,11 @@ export const pokemons = {
       sound: './sounds/charizard_call.mp3',
       facts: ['Charizard (And One Other) Is The Only Pokémon With Two Mega Evolved Forms!', 'Charizards fire is strong enough to melt boulders!', 'Charizard knows all sorts of Dragon Type moves that have blue fire which is even stronger than its regular fire!']
     },
+    evee: {
+      image: './images/eevee.png',
+      sound: './sounds/eevee_call.mp3',
+      facts: ['Eevee Has the Most Evolutions!', 'Eevee Original Name Was Eon!', 'Eevee Is Extremely Rare!']
+    },
+
 
   };
