@@ -45,7 +45,7 @@ function App() {
     <div className="App">
       <audio id="audio"></audio>
       <div className='pokemon-fact-bar'>
-        <h1 className='pokemon-header'>{title || 'Click an pokemon for a fun fact!'}</h1>
+        <h1 className='pokemon-fact-header'>{title || 'Click an pokemon for a fun fact!'}</h1>
         <p id='fact'className='pokemon-fact'></p>
       </div>
         {images}
